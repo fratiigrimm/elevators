@@ -1,0 +1,16 @@
+V:\New folder\VS_Code\elevators\bin\Debug\net5.0\elevators.deps.json
+V:\New folder\VS_Code\elevators\bin\Debug\net5.0\elevators.dll
+V:\New folder\VS_Code\elevators\bin\Debug\net5.0\ref\elevators.dll
+V:\New folder\VS_Code\elevators\bin\Debug\net5.0\elevators.pdb
+V:\New folder\VS_Code\elevators\obj\Debug\net5.0\elevators.csproj.AssemblyReference.cache
+V:\New folder\VS_Code\elevators\obj\Debug\net5.0\elevators.GeneratedMSBuildEditorConfig.editorconfig
+V:\New folder\VS_Code\elevators\obj\Debug\net5.0\elevators.AssemblyInfoInputs.cache
+V:\New folder\VS_Code\elevators\obj\Debug\net5.0\elevators.AssemblyInfo.cs
+V:\New folder\VS_Code\elevators\obj\Debug\net5.0\elevators.csproj.CoreCompileInputs.cache
+V:\New folder\VS_Code\elevators\obj\Debug\net5.0\elevators.dll
+V:\New folder\VS_Code\elevators\obj\Debug\net5.0\ref\elevators.dll
+V:\New folder\VS_Code\elevators\obj\Debug\net5.0\elevators.pdb
+V:\New folder\VS_Code\elevators\bin\Debug\net5.0\elevators.exe
+V:\New folder\VS_Code\elevators\bin\Debug\net5.0\elevators.runtimeconfig.json
+V:\New folder\VS_Code\elevators\bin\Debug\net5.0\elevators.runtimeconfig.dev.json
+V:\New folder\VS_Code\elevators\obj\Debug\net5.0\elevators.genruntimeconfig.cache
