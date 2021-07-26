@@ -43,19 +43,19 @@ namespace elevators
             //      Console.WriteLine(people[i].pName + " in on the " + h[people[i].pName] + " floor");
             // }
             
-
-
+        while(true) {
             string elevatorOption = null;
             b.chooseElevator();
             elevatorOption = Console.ReadLine();
             if (elevatorOption != "A" && elevatorOption != "B") {
                 b.invalidOption();
             }
-            
-            Console.WriteLine(people[0].pName + " calls the elevator " + elevatorOption + " from " + (h[people[0].pName]) + " floor");
+            var random = new Random();
+            int index = random.Next(people.Count);
+            Console.WriteLine(people[index].pName + " calls the elevator " + elevatorOption + " from " + (h[people[0].pName]) + " floor");
             if (elevatorOption == "A") {
                 Console.WriteLine("Elevator " + elevatorOption + " will arrive in " + 
-                (Convert.ToInt32(h[people[0].pName]) - A.currentLocation) + " seconds");
+                (Convert.ToInt32(h[people[index].pName]) - A.currentLocation) + " seconds");
                 Console.WriteLine("Choose destination floor: ");
                 int destination = 0;
                 destination = Convert.ToInt32(Console.ReadLine());
@@ -70,9 +70,7 @@ namespace elevators
                 Console.WriteLine("SYSTEM ERROR");
                 return;
             }
-            b.chooseElevator();
-            Console.WriteLine(people[2].pName + " calls the elevator " + elevatorOption + " from " + (h[people[2].pName]) + " floor");
-
+            }
         }
     }
 }
